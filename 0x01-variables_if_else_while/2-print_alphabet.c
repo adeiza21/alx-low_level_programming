@@ -9,11 +9,10 @@
 int main(void)
 {
 
-	char stuff[] = "abcdefghijklmnopqrstuvwxyz";
-	int i;
-	for (i = 0; stuff[i] != '\0'; i++)
+	char i;
+	for (i = 'a'; i <= 'z'; i++)
 	{
-		putchar(stuff[i]);
+		putchar(i);
 	}
 	return (0);
 }
